@@ -18,11 +18,10 @@ def video_downloader():
                 stream = yt.streams.get_highest_resolution()
                 print(f'\n[+]Downloading video:- [{yt.title}] in highest possible quality\n')
                 stream.download()
+                print(f'[+]Successfully downloaded video {yt.title}\n')
         except:
                 print(f'\n[+]Sorry! We could not download the video:-************ [{yt.title}] *************\n')
                 print('[+]Try to re-run the script')
-
-        print(f'[+]Successfully downloaded video {yt.title}\n')
 
 #To run the video_downloader function
 #video_downloader()
