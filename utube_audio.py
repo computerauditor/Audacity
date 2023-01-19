@@ -26,14 +26,13 @@ def audio_downloader():
                         print('[+]downloading audio at *ITAG-139*\n')
                         downloader = yt.streams.get_by_itag(139)
                         downloader.download()
+                        print(f'[+]Successfully downloaded audio {yt.title}\n')
                 except:
                         print('\n[+] Audio ITAG-139 not available hence trying ITAG-251... \n')
                         print('[+] Or the user pressed "CTRL+C"... \n')
                         print('[+]downloading audio at *ITAG-251*\n')
                         downloader = yt.streams.get_by_itag(251)
                         downloader.download()
-
-        print(f'[+]Successfully downloaded audio {yt.title}\n')
 
 #to call function
 #audio_downloader()
