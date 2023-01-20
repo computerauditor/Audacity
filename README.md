@@ -85,4 +85,4 @@ Please make sure to update tests as appropriate.
 
 ## License
 
-[MIT](url)
+[MIT](https://github.com/computerauditor/Audacity/blob/main/LICENSE.md)
