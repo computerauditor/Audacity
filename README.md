@@ -5,21 +5,18 @@ Audacity is a simple Python script for downloading the videos , audio or even pl
 
 ## Installation
 
-We need to install a python library first known as pytube using pip
+1. We need to install a python library first known as pytube using pip
 
 ```pip
 pip install pytube
 ```
-Clone the repo and 
-
-```python
-
-# Clone the repo using git clone:
-https://github.com/computerauditor/audacity.git
-
-# Run the main script using:
+2. Clone the repo using git clone
+```
+git clone https://github.com/computerauditor/audacity.git
+```
+3. Run the main script using:
+```
 python main.py
-
 ```
 ## Usage
 
