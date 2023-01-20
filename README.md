@@ -65,7 +65,7 @@ pip install pytube
 ```
 4. Then clone the git repo using git clone command
 ```
-https://github.com/computerauditor/audacity.git
+git clone https://github.com/computerauditor/audacity.git
 ```
 5. Change directory to the script
 ```
