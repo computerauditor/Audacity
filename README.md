@@ -1,6 +1,6 @@
 # Audacity
 
-Audacity is a simple Python script for downloading the videos , audio or even playlists from YouTube:
+Audacity is a simple Python script for downloading the videos , audio or even playlists from YouTube!!
 
 
 ## Installation
@@ -32,6 +32,43 @@ python main.py
 
 # Paste the URL from YouTube and Let the script do its magic!!
 
+```
+
+## Installing Audacity on Android
+
+Since this script is based on python it is cross platform, here are a few simple steps about how to install this on an android device:
+
+[+] Download a python client my favorite is termux(which is also open source) you can find it over here:
+[Google Play Store:](https://play.google.com/store/apps/details?id=com.termux&hl=en_IN&gl=US)
+#OR
+[F-Driod:](https://f-droid.org/en/packages/com.termux/)
+
+[+] Use the following commands in termux to set up python envirnment
+
+To upgrade termux default packages 
+```
+pkg update && pkg upgrade
+```
+To set up python in termux
+```
+pkg install python
+```
+To set up pytube 
+```
+pip install pytube
+```
+
+Then clone the git repo using git clone command
+```
+https://github.com/computerauditor/audacity.git
+```
+Change directory to the script
+```
+cd audacity-main/
+```
+Run the script and enjoy!!
+```
+python main.py
 ```
 
 ## Contributing
