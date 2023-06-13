@@ -4,12 +4,13 @@ Audacity is a simple Python script for downloading the videos , audio or even pl
 
 ## Preview
 
-**Downloading Video/Audio/Playlists using the graphical user interface(GUI):**
-![GUI](https://github.com/computerauditor/Audacity/assets/117805200/18183d7c-9bf0-4a45-a14b-7b3343f27c87)
-
 **Downloading Youtube Video[Command-Line]:**
 
 ![git video](https://user-images.githubusercontent.com/117805200/213721558-4d1f017d-355d-48a3-a2b0-3ed17a4f9711.png)
+
+**Downloading Video/Audio/Playlists using the graphical user interface(GUI):**
+
+![GUI](https://github.com/computerauditor/Audacity/assets/117805200/18183d7c-9bf0-4a45-a14b-7b3343f27c87)
 
 **Downloading Whole Playlist from Youtube[Command-Line]:**
 
