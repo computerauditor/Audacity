@@ -70,7 +70,7 @@ def download_playlist():
 
 # Create the main window
 window = Tk()
-window.title("YouTube Downloader")
+window.title("Audacity")
 window.configure(bg="black")
 window.geometry("400x200")  # Set the window size (width x height)
 
