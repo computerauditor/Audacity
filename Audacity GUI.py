@@ -93,9 +93,9 @@ def run_audacity():
     window.geometry("400x250")  # Set the window size (width x height)
 
 
-    # Apply the Forest theme
-    window.tk.call('source', 'themes/forest-dark.tcl')  # Use 'forest-light.tcl' for the light theme
-    ttk.Style().theme_use('forest-dark')  # Use 'forest-light' for the light theme
+    # Apply the Forest theme (You will need to paste the themes folder into the main directory of audacity.py for a better GUI theme!!
+    #window.tk.call('source', 'themes/forest-dark.tcl')  # Use 'forest-light.tcl' for the light theme
+    #ttk.Style().theme_use('forest-dark')  # Use 'forest-light' for the light theme
 
     # URL entry
     url_label = Label(window, text="Enter URL:")
