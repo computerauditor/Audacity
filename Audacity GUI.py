@@ -78,8 +78,8 @@ def run_audacity():
             print(f'Downloading Playlist => {playlist.title}')
             x = 1
             for video in playlist.videos:
-                timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-                filename = f"{video.title}_{timestamp}.mp4"
+                timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")  
+                filename = f"{sanitize_filename(video.title)}_{timestamp}.mp4"
                 video.streams.get_highest_resolution().download(output_path=save_path, filename=filename)
                 print(f'Video No. {x} of {playlist.title} Downloaded')
                 x += 1
@@ -91,11 +91,6 @@ def run_audacity():
     window = Tk()
     window.title("Audacity")
     window.geometry("400x250")  # Set the window size (width x height)
-
-
-    # Apply the Forest theme (You will need to paste the themes folder into the main directory of audacity.py for a better GUI theme!!
-    #window.tk.call('source', 'themes/forest-dark.tcl')  # Use 'forest-light.tcl' for the light theme
-    #ttk.Style().theme_use('forest-dark')  # Use 'forest-light' for the light theme
 
     # URL entry
     url_label = Label(window, text="Enter URL:")
